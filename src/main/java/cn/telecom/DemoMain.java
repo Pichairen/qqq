@@ -30,6 +30,7 @@ public class DemoMain{
         Log log = LogFactory.getLog(DemoMain.class);
 
         String test="sdibt";
+
         log.info("this is info:"+test);
         log.error("this is error:"+test);
         log.debug("this is debug:"+test);
