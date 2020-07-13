@@ -28,6 +28,7 @@ public class DemoMain{
 
         System.out.println("/***********************Loger4日志***********************/");
         Log log = LogFactory.getLog(DemoMain.class);
+
         String test="sdibt";
         log.info("this is info:"+test);
         log.error("this is error:"+test);
