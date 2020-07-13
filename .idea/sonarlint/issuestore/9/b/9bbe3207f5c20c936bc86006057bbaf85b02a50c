@@ -1,0 +1,13 @@
+
+m
+java:S1128"PRemove this unused import 'net.sourceforge.pinyin4j.format.HanyuPinyinToneType'.(œœ‚Ø8ÃŒ«·´.
+
+java:S1128"lRemove this unused import 'net.sourceforge.pinyin4j.format.exception.BadHanyuPinyinOutputFormatCombination'.(÷ùÊÿÿÿÿÿ8ÃŒ«·´.
+v
+java:S1128"TRemove this unused import 'net.sourceforge.pinyin4j.format.HanyuPinyinOutputFormat'.(±¹Éşÿÿÿÿ8ÃŒ«·´.
+m
+java:S1128"PRemove this unused import 'net.sourceforge.pinyin4j.format.HanyuPinyinCaseType'.(™Á¡õ8ÃŒ«·´.
+_
+java:S1128"BRemove this unused import 'net.sourceforge.pinyin4j.PinyinHelper'.(‚®ÿì8ÕÀ¥·´.
+O
+java:S1481"-Remove this unused "pinyin4j" local variable.(Õ€ùÀÿÿÿÿÿ8á«·´.
