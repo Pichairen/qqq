@@ -1,0 +1,1 @@
+java -cp D:/WorkSpace_1/learning/hanyupinyin_test/target/hanyupinyin_test-1.0-SNAPSHOT-jar-with-dependencies.jar cn.telecom.DemoMain

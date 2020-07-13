@@ -1,5 +1,8 @@
 package cn.telecom;
 
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
 import java.util.Arrays;
 
 /**
@@ -9,6 +12,8 @@ public class DemoMain{
 
     public static void main(String[] args) {
         Pinyin4jUtils pinYinTool = new Pinyin4jUtils();
+
+        System.out.println("/***********************汉字转拼音***********************/");
         // pin4j 简码 和 城市编码
         String str = "黎海育";
         System.out.println("输入字符串："+str);
@@ -20,6 +25,13 @@ public class DemoMain{
 
         // System.out.println(Arrays.toString(Pinyin4jUtils.stringToPinyin(str,false,",")));
         // System.out.println(Arrays.toString(Pinyin4jUtils.stringToPinyin(str,false,",")));
+
+        System.out.println("/***********************Loger4日志***********************/");
+        Log log = LogFactory.getLog(DemoMain.class);
+        String test="sdibt";
+        log.info("this is info:"+test);
+        log.error("this is error:"+test);
+        log.debug("this is debug:"+test);
     }
 }
 
